@@ -88,18 +88,18 @@ function App() {
 
         <nav id="primary-navigation" className={`site-nav${menuOpen ? ' is-open' : ''}`} aria-label="Основная навигация">
           <a href="#services" onClick={closeMenu}>Что делаем</a>
-          <a href="#work" onClick={closeMenu}>Работы</a>
+          <a href="#work" onClick={closeMenu}>Портфолио</a>
           <a href="#approach" onClick={closeMenu}>Подход</a>
           <a href="#contact" className="nav-contact" onClick={closeMenu}>Обсудить проект <ArrowIcon /></a>
         </nav>
       </header>
 
       <main id="main">
-        <section className="hero section-dark" id="top" aria-labelledby="hero-title">
+        <section className="hero section-light" id="top" aria-labelledby="hero-title">
           <div className="hero-topline eyebrow"><span>ЦИФРОВАЯ СТУДИЯ</span><span>ВЕБ / СИСТЕМЫ / ИНТЕГРАЦИИ <i className="status-dot" /></span></div>
           <div className="hero-grid">
             <div className="hero-main">
-              <p className="hero-kicker"><span className="index">[ 01—04 ]</span> САЙТЫ / СИСТЕМЫ / АВТОМАТИЗАЦИЯ</p>
+              <p className="hero-kicker"><span className="index">[ 01—06 ]</span> САЙТЫ / СИСТЕМЫ / АВТОМАТИЗАЦИЯ</p>
               <h1 id="hero-title">ДЕЛАЕМ<br />ЦИФРОВОЕ<br /><span>РАБОЧИМ.</span></h1>
               <div className="hero-bottom">
                 <p className="hero-intro">Разрабатываем сайты, веб-приложения, Telegram-боты и ИИ-инструменты под задачи бизнеса.</p>
@@ -147,12 +147,12 @@ function App() {
           <div className="services-footnote"><span className="accent-square" /> ТЕХНОЛОГИИ — СРЕДСТВО. ВАЖНО, ЧТО МЕНЯЕТСЯ В РАБОТЕ.</div>
         </section>
 
-        <section className="portfolio section-dark" id="work" aria-labelledby="work-title">
+        <section className="portfolio section-portfolio" id="work" aria-labelledby="work-title">
           <div className="portfolio-heading">
-            <p className="eyebrow section-index"><span>03</span> / ИЗБРАННАЯ РАБОТА</p>
+            <p className="eyebrow section-index"><span>03</span> / ПРОЕКТЫ СТУДИИ</p>
             <div className="portfolio-title-row">
-              <h2 id="work-title">РАБОТА<br /><span>ГОВОРИТ.</span></h2>
-              <p>Показываем то, что действительно сделали. Пока здесь — собственный сайт студии.</p>
+              <h2 id="work-title">ПОРТФОЛИО</h2>
+              <p>Готовые проекты студии. Каждый кейс добавляем после реализации и проверки.</p>
             </div>
           </div>
           <article className="project-feature">
@@ -172,7 +172,7 @@ function App() {
               <a className="project-link" href="#top">Перейти к сайту <ArrowIcon /></a>
             </div>
           </article>
-          <p className="portfolio-note"><span className="accent-square" /> КЛИЕНТСКИЕ ПРОЕКТЫ ДОБАВИМ, КОГДА БУДУТ ПОДТВЕРЖДЁННЫЕ МАТЕРИАЛЫ.</p>
+          <p className="portfolio-note"><span className="accent-square" /> ДЕМОНСТРАЦИОННЫЕ ПРОДУКТЫ ПОЯВЯТСЯ ЗДЕСЬ ПОСЛЕ РЕАЛИЗАЦИИ И ПРОВЕРКИ.</p>
         </section>
 
         <section className="statement section-dark" aria-label="Принцип работы">

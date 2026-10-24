@@ -36,8 +36,8 @@
 
 :root {
   font-family: 'Inter Variable', Arial, sans-serif;
-  color: #f4f4ef;
-  background: #111210;
+  color: #17243b;
+  background: #f7f8fb;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -45,16 +45,20 @@
   font-optical-sizing: auto;
   font-weight: 400;
   scroll-behavior: smooth;
-  --canvas: #111210;
-  --surface: #f0f0eb;
-  --ink: #f4f4ef;
-  --ink-dark: #161713;
-  --muted: #a5a79e;
-  --line: rgba(244, 244, 239, .22);
-  --line-dark: rgba(22, 23, 19, .2);
-  --accent: #d7ff3f;
+  --canvas: #17243b;
+  --surface: #f7f8fb;
+  --surface-alt: #edf1f7;
+  --ink: #f8fafd;
+  --ink-dark: #17243b;
+  --muted: #71809a;
+  --line: rgba(248, 250, 253, .2);
+  --line-dark: rgba(23, 36, 59, .16);
+  --accent: #5676b2;
+  --accent-strong: #405f9d;
+  --accent-gradient: linear-gradient(115deg, #a9bee2 0%, #8298ca 52%, #354f82 100%);
+  --surface-gradient: linear-gradient(120deg, #f2f5fa 0%, #e0e8f5 52%, #c8d6ec 100%);
   --mono: 'DM Mono', 'Courier New', monospace;
-  --display: 'Oswald Local', Impact, 'Arial Narrow', sans-serif;
+  --display: 'Inter Variable', Arial, sans-serif;
 }
 
 * { box-sizing: border-box; }
