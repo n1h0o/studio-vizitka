@@ -30,9 +30,9 @@
 - `--muted: #A5A79E` — вторичный текст;
 - `--line: rgba(244,244,239,.22)` — разделители;
 - `--accent: #D7FF3F` — CTA и активный маркер только;
-- display: `Arial Narrow`, `Impact`, system sans fallback, крупный uppercase с плотным межстрочным интервалом;
-- body: system sans-serif, 16–18px;
-- labels: system monospace, 11–12px, uppercase, увеличенный tracking;
+- display: локально поставляемый Oswald Variable (SIL Open Font License), крупный uppercase с плотным межстрочным интервалом;
+- body: Inter Variable (локальная npm-зависимость), 16–18px;
+- labels: DM Mono (локальная npm-зависимость), 11–12px, uppercase, увеличенный tracking;
 - сетка: max-width 1440px, базовый шаг 8px, горизонтальные отступы адаптивны;
 - кнопки: радиус 3px, карточки не использовать без содержательной причины, тени/градиенты не применять.
 
