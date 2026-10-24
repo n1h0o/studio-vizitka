@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1014" fill="none">
+  <defs>
+    <linearGradient id="screen" x1="0" y1="0" x2="1440" y2="1014" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#20211d"/><stop offset="1" stop-color="#111210"/>
+    </linearGradient>
+    <pattern id="grid" width="56" height="56" patternUnits="userSpaceOnUse">
+      <path d="M56 0H0v56" stroke="#F4F4EF" stroke-opacity=".055"/>
+    </pattern>
+  </defs>
+  <path fill="#0b0c0a" d="M0 0h1440v1014H0z"/>
+  <path fill="url(#screen)" d="M42 42h1356v930H42z"/>
+  <path fill="url(#grid)" d="M42 42h1356v930H42z"/>
+  <path stroke="#F4F4EF" stroke-opacity=".2" d="M42.5 42.5h1355v929H42.5z"/>
+  <path fill="#D7FF3F" d="M91 100h43v43H91z"/>
+  <path d="M103 131V111h8.6c5.4 0 8.3 2.6 8.3 7.3 0 4.8-2.9 7.3-8.3 7.3h-2.1v5.4H103Zm6.5-10.2h1.7c1.6 0 2.3-.7 2.3-2.1s-.7-2-2.3-2h-1.7v4.1Z" fill="#111210"/>
+  <path fill="#F4F4EF" fill-opacity=".7" d="M150 107h137v7H150zm0 15h81v5h-81z"/>
+  <path fill="#F4F4EF" fill-opacity=".48" d="M1019 111h76v6h-76zm110 0h83v6h-83zm117-12h145v31h-145z"/>
+  <path stroke="#F4F4EF" stroke-opacity=".3" d="M1197.5 99.5h144v30h-144z"/>
+  <path fill="#D7FF3F" fill-opacity=".75" d="M1220 112h95v5h-95z"/>
+  <path fill="#F4F4EF" fill-opacity=".42" d="M100 217h145v7H100z"/>
+  <path fill="#D7FF3F" d="M271 217h8v7h-8z"/>
+  <path fill="#F4F4EF" d="M94 279h646v141H94z"/>
+  <path fill="#F4F4EF" d="M94 433h492v141H94z"/>
+  <path fill="#D7FF3F" d="M94 587h669v141H94z"/>
+  <path fill="#D7FF3F" fill-opacity=".8" d="M101 343h633v-7H101zm0 154h479v-7H101zm0 154h651v-7H101z"/>
+  <path fill="#111210" d="M100 279h619v141H100zm0 154h467v141H100z"/>
+  <path fill="#111210" d="M100 587h646v141H100z"/>
+  <path fill="#D7FF3F" fill-opacity=".72" d="M100 355h550v7H100zm0 154h398v7H100zm0 154h586v7H100z"/>
+  <path fill="#F4F4EF" fill-opacity=".72" d="M101 769h409v7H101zm0 15h326v5H101z"/>
+  <circle cx="1124" cy="505" r="170" stroke="#D7FF3F" stroke-opacity=".5"/>
+  <ellipse cx="1124" cy="505" stroke="#D7FF3F" stroke-opacity=".72" rx="226" ry="93" transform="rotate(-36 1124 505)"/>
+  <ellipse cx="1124" cy="505" stroke="#F4F4EF" stroke-opacity=".24" rx="235" ry="105" transform="rotate(48 1124 505)"/>
+  <circle cx="1124" cy="505" r="72" fill="#111210" stroke="#D7FF3F"/>
+  <path fill="#F4F4EF" fill-opacity=".55" d="M100 866h1240v1H100z"/>
+  <path fill="#F4F4EF" fill-opacity=".42" d="M101 894h158v6H101zm1165 0h75v6h-75z"/>
+  <circle cx="1308" cy="897" r="5" fill="#D7FF3F"/>
+</svg>

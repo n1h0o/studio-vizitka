@@ -88,6 +88,7 @@ function App() {
 
         <nav id="primary-navigation" className={`site-nav${menuOpen ? ' is-open' : ''}`} aria-label="Основная навигация">
           <a href="#services" onClick={closeMenu}>Что делаем</a>
+          <a href="#work" onClick={closeMenu}>Работы</a>
           <a href="#approach" onClick={closeMenu}>Подход</a>
           <a href="#contact" className="nav-contact" onClick={closeMenu}>Обсудить проект <ArrowIcon /></a>
         </nav>
@@ -146,15 +147,43 @@ function App() {
           <div className="services-footnote"><span className="accent-square" /> ТЕХНОЛОГИИ — СРЕДСТВО. ВАЖНО, ЧТО МЕНЯЕТСЯ В РАБОТЕ.</div>
         </section>
 
+        <section className="portfolio section-dark" id="work" aria-labelledby="work-title">
+          <div className="portfolio-heading">
+            <p className="eyebrow section-index"><span>03</span> / ИЗБРАННАЯ РАБОТА</p>
+            <div className="portfolio-title-row">
+              <h2 id="work-title">РАБОТА<br /><span>ГОВОРИТ.</span></h2>
+              <p>Показываем то, что действительно сделали. Пока здесь — собственный сайт студии.</p>
+            </div>
+          </div>
+          <article className="project-feature">
+            <a className="project-artwork" href="#top" aria-label="Посмотреть сайт-визитку студии">
+              <img src="/studio-site-preview.svg" alt="Визуализация первого экрана собственного сайта студии: «Делаем цифровое рабочим»" />
+              <span className="project-open"><span>СОБСТВЕННЫЙ ПРОЕКТ</span><ArrowIcon /></span>
+            </a>
+            <div className="project-caption">
+              <div className="project-name">
+                <span className="eyebrow project-index">01 / САЙТ СТУДИИ</span>
+                <h3>Сайт-визитка студии</h3>
+              </div>
+              <p>Сайт для презентации услуг, рабочего процесса и способа связаться со студией.</p>
+              <ul className="project-tags" aria-label="Технологии проекта">
+                <li>React</li><li>TypeScript</li><li>Vite</li>
+              </ul>
+              <a className="project-link" href="#top">Перейти к сайту <ArrowIcon /></a>
+            </div>
+          </article>
+          <p className="portfolio-note"><span className="accent-square" /> КЛИЕНТСКИЕ ПРОЕКТЫ ДОБАВИМ, КОГДА БУДУТ ПОДТВЕРЖДЁННЫЕ МАТЕРИАЛЫ.</p>
+        </section>
+
         <section className="statement section-dark" aria-label="Принцип работы">
-          <p className="eyebrow section-index"><span>03</span> / ПРИНЦИП</p>
+          <p className="eyebrow section-index"><span>04</span> / ПРИНЦИП</p>
           <p className="statement-text">НЕ ПРОСТО<br />СОБИРАЕМ <span>ЭКРАНЫ.</span><br />РЕШАЕМ <span>ЗАДАЧУ.</span></p>
           <div className="statement-bottom"><span className="statement-mark" aria-hidden="true">↳</span><p>Сначала контекст и сценарий.<br />Потом — подходящий инструмент.</p></div>
         </section>
 
         <section className="approach section-accent" id="approach" aria-labelledby="approach-title">
           <div className="approach-intro">
-            <p className="eyebrow section-index"><span>04</span> / ПРОЦЕСС</p>
+            <p className="eyebrow section-index"><span>05</span> / ПРОЦЕСС</p>
             <h2 id="approach-title">ЯСНЫЕ<br />ЭТАПЫ.<br /><span>ПОНЯТНЫЙ<br />РЕЗУЛЬТАТ.</span></h2>
             <p>Небольшие итерации, проверяемые договорённости и демонстрация работы на каждом важном шаге.</p>
           </div>
@@ -171,7 +200,7 @@ function App() {
 
         <section className="contact section-light" id="contact" aria-labelledby="contact-title">
           <div className="contact-heading">
-            <p className="eyebrow section-index"><span>05</span> / СЛЕДУЮЩИЙ ШАГ</p>
+            <p className="eyebrow section-index"><span>06</span> / СЛЕДУЮЩИЙ ШАГ</p>
             <h2 id="contact-title">ЕСТЬ<br />ЗАДАЧА<span>?</span></h2>
             <p>Расскажите, что нужно изменить или создать. Разберёмся, с чего лучше начать.</p>
             <div className="contact-note"><span className="accent-square" /> СНАЧАЛА КОНТЕКСТ. ПОТОМ ПЛАН РАБОТ.</div>

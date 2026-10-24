@@ -74,6 +74,30 @@
 .services-footnote { display: flex; align-items: center; gap: 10px; margin-top: 27px; color: #77786f; font: 400 9px/1.6 var(--mono); letter-spacing: .07em; }
 .accent-square { display: inline-block; width: 8px; height: 8px; flex: none; background: #a0c820; }
 
+.portfolio { padding: clamp(76px, 10vw, 142px) clamp(22px, 8.4vw, 136px) clamp(64px, 8vw, 108px); }
+.portfolio-heading, .project-feature, .portfolio-note { max-width: 1320px; margin-right: auto; margin-left: auto; }
+.portfolio .section-index { color: #9a9c92; }
+.portfolio .section-index span { color: var(--accent); }
+.portfolio-title-row { display: flex; align-items: flex-end; justify-content: space-between; gap: 48px; }
+.portfolio-title-row h2 { margin: 0; font-family: var(--display); font-size: clamp(70px, 11vw, 154px); font-weight: 600; line-height: .84; letter-spacing: -.04em; }
+.portfolio-title-row h2 span { color: #777970; }
+.portfolio-title-row > p { max-width: 300px; margin: 0 3% 4px 0; color: #b7b8b1; font-size: 13px; line-height: 1.7; }
+.project-feature { display: grid; grid-template-columns: minmax(0, 1.45fr) minmax(250px, .55fr); gap: clamp(25px, 5vw, 76px); align-items: end; margin-top: clamp(44px, 7vw, 92px); }
+.project-artwork { position: relative; display: block; overflow: hidden; aspect-ratio: 1.42; background: #1b1c18; }
+.project-artwork img { display: block; width: 100%; height: 100%; object-fit: cover; transition: transform .45s cubic-bezier(.2,.7,.2,1); }
+.project-artwork:hover img { transform: scale(1.025); }
+.project-open { position: absolute; right: 16px; bottom: 16px; display: inline-flex; align-items: center; gap: 14px; padding: 12px 14px; color: var(--ink-dark); background: var(--accent); font: 500 9px/1 var(--mono); letter-spacing: .05em; }
+.project-open .arrow-icon { width: 16px; height: 16px; }
+.project-caption { padding-bottom: 3px; }
+.project-index { display: block; color: var(--accent); font-size: 9px; }
+.project-name h3 { margin: 17px 0 0; font-size: clamp(23px, 2.6vw, 34px); font-weight: 600; letter-spacing: -.045em; }
+.project-caption > p { max-width: 350px; margin: 13px 0 0; color: #b7b8b1; font-size: 13px; line-height: 1.7; }
+.project-tags { display: flex; flex-wrap: wrap; gap: 7px; padding: 0; margin: 21px 0 0; list-style: none; }
+.project-tags li { padding: 7px 8px; border: 1px solid rgba(244, 244, 239, .22); color: #d1d2ca; font: 400 9px/1 var(--mono); }
+.project-link { display: inline-flex; align-items: center; gap: 12px; margin-top: 28px; padding-bottom: 9px; border-bottom: 1px solid rgba(244, 244, 239, .42); font-size: 11px; font-weight: 700; transition: color .18s ease, border-color .18s ease; }
+.project-link:hover { color: var(--accent); border-color: var(--accent); }
+.portfolio-note { display: flex; align-items: center; gap: 10px; margin-top: 29px; color: #92948a; font: 400 9px/1.6 var(--mono); letter-spacing: .07em; }
+
 .statement { position: relative; padding: clamp(82px, 12vw, 180px) clamp(22px, 8.4vw, 136px) clamp(46px, 7vw, 100px); }
 .statement .section-index { color: #9a9c92; }
 .statement .section-index span { color: var(--accent); }
@@ -133,7 +157,7 @@
   .hero h1 { font-size: clamp(72px, 11.5vw, 116px); }
   .hero-bottom { align-items: flex-start; flex-direction: column; gap: 22px; }
   .hero-aside { padding-top: 40px; }
-  .services, .statement, .approach, .contact { padding-right: 6vw; padding-left: 6vw; }
+  .services, .portfolio, .statement, .approach, .contact { padding-right: 6vw; padding-left: 6vw; }
   .approach { gap: 55px; }
 }
 @media (max-width: 720px) {
@@ -175,6 +199,19 @@
   .service-arrow { width: 28px; height: 28px; }
   .service-arrow .arrow-icon { width: 15px; }
   .services-footnote { align-items: flex-start; font-size: 8px; }
+  .portfolio { padding: 76px 20px 60px; }
+  .portfolio-title-row { display: block; }
+  .portfolio-title-row h2 { font-size: clamp(62px, 17vw, 108px); }
+  .portfolio-title-row > p { max-width: 330px; margin: 22px 0 0; font-size: 12px; }
+  .project-feature { display: flex; flex-direction: column; align-items: stretch; gap: 25px; margin-top: 36px; }
+  .project-artwork { aspect-ratio: 1.08; }
+  .project-open { right: 10px; bottom: 10px; gap: 8px; padding: 10px; font-size: 8px; }
+  .project-caption { padding: 0; }
+  .project-name h3 { margin-top: 11px; font-size: 24px; }
+  .project-caption > p { font-size: 12px; }
+  .project-tags { margin-top: 15px; }
+  .project-link { margin-top: 22px; }
+  .portfolio-note { align-items: flex-start; margin-top: 25px; font-size: 8px; }
   .statement { padding: 78px 20px 52px; }
   .statement-text { font-size: clamp(36px, 10.6vw, 76px); line-height: .95; }
   .statement-bottom { margin: 28px 0 0 auto; }
